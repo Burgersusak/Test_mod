@@ -25,6 +25,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES)
                 .remove(Tags.Blocks.ORES_COAL);
 
+        this.tag(ModTags.Blocks.ORES_ALEXANDRITE)
+                .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.ALEXANDRITE_ORE.get());
+
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
                         ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
@@ -32,20 +38,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
                         ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get(),
                         ModBlocks.SOUND_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
                         ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
                         ModBlocks.ALEXANDRITE_ORE.get(),
-                        ModBlocks.SOUND_BLOCK.get());
+                        ModBlocks.SOUND_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
                         ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+
         this.tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+
         this.tag(BlockTags.STONE_ORE_REPLACEABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get());
     }
