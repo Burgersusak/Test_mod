@@ -8,6 +8,8 @@
     "mccourse:nether_alexandrite_ore",
     "mccourse:alexandrite_slab",
     "mccourse:alexandrite_stairs",
+    "mccourse:alexandrite_pressure_plate",
+    "mccourse:alexandrite_button",
     "mccourse:sound_block"
   ]
 }

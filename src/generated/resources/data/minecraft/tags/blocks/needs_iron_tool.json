@@ -5,6 +5,8 @@
     "mccourse:alexandrite_ore",
     "mccourse:sound_block",
     "mccourse:alexandrite_slab",
+    "mccourse:alexandrite_pressure_plate",
+    "mccourse:alexandrite_button",
     "mccourse:alexandrite_stairs"
   ]
 }
