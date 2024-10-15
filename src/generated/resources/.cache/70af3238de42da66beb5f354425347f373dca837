@@ -1,11 +1,13 @@
-// 1.20	2024-10-14T18:22:32.3952013	Block Tags
+// 1.20.1	2024-10-15T19:33:17.6763193	Block Tags
 7990d65a7be225378804e8a855b495b83a94d760 data/mccourse/tags/blocks/metal_detector_valuables.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/mccourse/tags/blocks/mineable/paxel.json
+08e816d84dd5a9806309e91f51915a5605841bb8 data/mccourse/tags/blocks/needs_alexandrite_tool.json
 206c821ab3b8f53bd7a582698d93ece0bebf1e0a data/mccourse/tags/blocks/ores_alexandrite.json
 81b9f68439354300d100c6d25b3e987b5ccfe13d data/minecraft/tags/blocks/deepslate_ore_replaceables.json
 43b621c9e36eb4c7ee0e97ecc2dd841d090c7821 data/minecraft/tags/blocks/fences.json
 c019d56ddaf7b3dec0cca0ef234845dd8a1007a7 data/minecraft/tags/blocks/fence_gates.json
-7ba9b9ef72947aba621db0ca6826d784d0c29dd1 data/minecraft/tags/blocks/mineable/pickaxe.json
-6dd642dc4bc8d0a18816d1f9abf49125ed509a2b data/minecraft/tags/blocks/needs_diamond_tool.json
-1f1e87142b3a14c928fcede6cda321c1b29d0bb0 data/minecraft/tags/blocks/needs_iron_tool.json
+da5b58c391ddb2d7ec8b4d96d80b2e7674fd71af data/minecraft/tags/blocks/mineable/pickaxe.json
+bd35710c7801d251dd374e23bfb2d9e897d62f53 data/minecraft/tags/blocks/needs_diamond_tool.json
+2dae958a4b883fef08422ebf5dccafe2848e1c71 data/minecraft/tags/blocks/needs_iron_tool.json
 4e67f327d9c0bc16134b508e4111e935cc2a691d data/minecraft/tags/blocks/stone_ore_replaceables.json
 fcae742425a5d2edad1054f123baad77857ee1b5 data/minecraft/tags/blocks/walls.json

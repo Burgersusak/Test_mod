@@ -45,6 +45,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ALEXANDRITE_STAIRS.get(),
                         ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get(),
                         ModBlocks.ALEXANDRITE_BUTTON.get(),
+                        ModBlocks.ALEXANDRITE_FENCE_GATE.get(),
+                        ModBlocks.ALEXANDRITE_FENCE.get(),
+                        ModBlocks.ALEXANDRITE_WALL.get(),
+                        ModBlocks.ALEXANDRITE_TRAPDOOR.get(),
+                        ModBlocks.ALEXANDRITE_DOOR.get(),
                         ModBlocks.SOUND_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -55,12 +60,22 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ALEXANDRITE_SLAB.get(),
                         ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get(),
                         ModBlocks.ALEXANDRITE_BUTTON.get(),
+                        ModBlocks.ALEXANDRITE_FENCE_GATE.get(),
+                        ModBlocks.ALEXANDRITE_FENCE.get(),
+                        ModBlocks.ALEXANDRITE_WALL.get(),
+                        ModBlocks.ALEXANDRITE_TRAPDOOR.get(),
+                        ModBlocks.ALEXANDRITE_DOOR.get(),
                         ModBlocks.ALEXANDRITE_STAIRS.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTags(BlockTags.MINEABLE_WITH_PICKAXE, BlockTags.MINEABLE_WITH_AXE, BlockTags.MINEABLE_WITH_SHOVEL);
+
+        this.tag(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL)
+                .add(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
 
         this.tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());

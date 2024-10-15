@@ -10,6 +10,11 @@
     "mccourse:alexandrite_stairs",
     "mccourse:alexandrite_pressure_plate",
     "mccourse:alexandrite_button",
+    "mccourse:alexandrite_fence_gate",
+    "mccourse:alexandrite_fence",
+    "mccourse:alexandrite_wall",
+    "mccourse:alexandrite_trapdoor",
+    "mccourse:alexandrite_door",
     "mccourse:sound_block"
   ]
 }
