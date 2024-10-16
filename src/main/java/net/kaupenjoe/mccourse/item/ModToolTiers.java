@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier ALEXANDRITE = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2000, 5f, 3.0f, 26,
+            new ForgeTier(5, 2000, 9f, 4.0f, 20,
                     ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL, () -> Ingredient.of(ModItems.ALEXANDRITE.get())),
             new ResourceLocation(MCCourseMod.MOD_ID, "alexandrite"), List.of(Tiers.NETHERITE), List.of());
 
