@@ -13,6 +13,12 @@
   "item.mccourse.alexandrite_paxel": "Alexandrite Paxel",
   "item.mccourse.alexandrite_hammer": "Alexandrite Hammer",
 
+  "item.mccourse.alexandrite_helmet": "Alexandrite Helmet",
+  "item.mccourse.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.mccourse.alexandrite_leggings": "Alexandrite Leggings",
+  "item.mccourse.alexandrite_boots": "Alexandrite Boots",
+  "item.mccourse.alexandrite_horse_armor": "Alexandrite Horse Armor",
+
   "block.mccourse.alexandrite_block": "Block of Alexandrite",
   "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
 
@@ -34,6 +40,8 @@
   "block.mccourse.sound_block": "Sound Block",
 
   "creativetab.course_tab": "Course Tab",
+
+  "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 

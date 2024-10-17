@@ -2,6 +2,7 @@ package net.kaupenjoe.mccourse;
 
 import com.mojang.logging.LogUtils;
 import net.kaupenjoe.mccourse.block.ModBlocks;
+import net.kaupenjoe.mccourse.enchantment.ModEnchantments;
 import net.kaupenjoe.mccourse.item.ModCreativeModeTabs;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,8 @@ public class MCCourseMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEnchantments.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);

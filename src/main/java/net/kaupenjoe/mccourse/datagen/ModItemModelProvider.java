@@ -27,6 +27,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PEAT_BRICK);
 
+        simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
+        simpleItem(ModItems.ALEXANDRITE_HELMET);
+        simpleItem(ModItems.ALEXANDRITE_BOOTS);
+        simpleItem(ModItems.ALEXANDRITE_LEGGINGS);
+        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
+
         handheldItem(ModItems.ALEXANDRITE_PICKAXE);
         handheldItem(ModItems.ALEXANDRITE_AXE);
         handheldItem(ModItems.ALEXANDRITE_HOE);

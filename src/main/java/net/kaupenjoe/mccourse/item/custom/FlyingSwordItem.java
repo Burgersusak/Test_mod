@@ -17,7 +17,7 @@ public class FlyingSwordItem extends SwordItem {
     @Override
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         if (entity instanceof LivingEntity livingEntity) {
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 49), player);
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 99), player);
         }
 
         return super.onLeftClickEntity(stack, player, entity);
