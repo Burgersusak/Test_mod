@@ -1,5 +1,6 @@
 package net.kaupenjoe.mccourse.item.custom;
 
+import net.kaupenjoe.mccourse.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
@@ -10,6 +11,7 @@ import net.minecraft.world.item.Vanishable;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
+import net.minecraftforge.common.Tags;
 
 import java.util.ArrayList;
 import java.util.List;

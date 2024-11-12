@@ -4,6 +4,7 @@
   "item.mccourse.metal_detector": "Metal Detector",
   "item.mccourse.data_tablet": "Data Tablet",
   "item.mccourse.kohlrabi": "Kohlrabi",
+  "item.mccourse.kohlrabi_seeds": "Kohlrabi Seeds",
   "item.mccourse.peat_brick": "Peat Brick",
 
   "item.mccourse.alexandrite_sword": "Alexandrite Sword",
@@ -37,6 +38,7 @@
   "block.mccourse.alexandrite_fence_gate": "Alexandrite Fence Gate",
   "block.mccourse.alexandrite_door": "Alexandrite Door",
   "block.mccourse.alexandrite_trapdoor": "Alexandrite trapdoor",
+  "block.mccourse.snapdragon": "Snapdragon",
 
   "block.mccourse.sound_block": "Sound Block",
   "block.mccourse.alexandrite_lamp": "Alexandrite Lamp",
@@ -46,6 +48,8 @@
   "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
+
+  "sounds.mccourse.metal_detector_found_ore": "Metal Detector found an Ore",
 
   "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Information",

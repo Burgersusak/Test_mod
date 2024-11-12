@@ -6,6 +6,7 @@ import net.kaupenjoe.mccourse.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -70,6 +71,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+
+        this.tag(ModTags.Blocks.HELPER_TAG)
+                .add(Blocks.COBBLESTONE);
 
         this.tag(ModTags.Blocks.PAXEL_MINEABLE)
                 .addTags(BlockTags.MINEABLE_WITH_PICKAXE, BlockTags.MINEABLE_WITH_AXE, BlockTags.MINEABLE_WITH_SHOVEL);

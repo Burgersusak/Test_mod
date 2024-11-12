@@ -25,28 +25,31 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.KOHLRABI);
         simpleItem(ModItems.METAL_DETECTOR);
-        //simpleItem(ModItems.DATA_TABLET);
         simpleItem(ModItems.PEAT_BRICK);
 
-        simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
-        simpleItem(ModItems.ALEXANDRITE_HELMET);
-        simpleItem(ModItems.ALEXANDRITE_BOOTS);
-        simpleItem(ModItems.ALEXANDRITE_LEGGINGS);
-        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
-
+        handheldItem(ModItems.ALEXANDRITE_SWORD);
         handheldItem(ModItems.ALEXANDRITE_PICKAXE);
+        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
         handheldItem(ModItems.ALEXANDRITE_AXE);
         handheldItem(ModItems.ALEXANDRITE_HOE);
-        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
-        handheldItem(ModItems.ALEXANDRITE_SWORD);
         handheldItem(ModItems.ALEXANDRITE_PAXEL);
         handheldItem(ModItems.ALEXANDRITE_HAMMER);
+
+        simpleItem(ModItems.ALEXANDRITE_HELMET);
+        simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
+        simpleItem(ModItems.ALEXANDRITE_LEGGINGS);
+        simpleItem(ModItems.ALEXANDRITE_BOOTS);
+
+        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
+        simpleItem(ModItems.KOHLRABI_SEEDS);
+        // simpleItem(ModItems.DATA_TABLET);
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
         wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+        simpleBlockItem(ModBlocks.SNAPDRAGON);
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
@@ -64,6 +67,13 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("texture",  new ResourceLocation(MCCourseMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(MCCourseMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
@@ -73,11 +83,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(MCCourseMod.MOD_ID,"item/" + item.getId().getPath()));
-    }
-    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
-        return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(MCCourseMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 }
